@@ -36,7 +36,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         holder.txtAttackerKing.setText(listWarDetails.get(position).getAttacker_king());
         holder.txtDefenderKing.setText(listWarDetails.get(position).getDefender_king());
     }
-    
+
     @Override
     public int getItemCount() {
         return listWarDetails.size();
